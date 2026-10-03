@@ -12,5 +12,6 @@ Every projection, decision, and human override is committed here at the time it 
 
 ## Layout
 
-- `CHAINLOG.txt` — daily root hashes, append-only.
+- `CHAINLOG.txt` — one line per batch, append-only: time, batch directory, batch root hash, chain hash.
+- `YYYY-MM-DD/HHMMSSZ-<kind>/` — one directory per batch (ingest, projection, override, decision). Each has a `manifest.json`.
 - `VERIFY.md` — how to verify the records yourself.
