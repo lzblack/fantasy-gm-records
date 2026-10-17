@@ -1,0 +1,1 @@
+{"created_at":"2026-10-17T09:00:08Z","data_cutoff":"2026-10-17T09:00:08Z","engine_commit":"b198bf85199d1c83c94dfce63858b061add70e7a","engine_dirty":false,"fetch_errors":[],"files":[{"contract":"prediction_settlement","name":"settlement-2026-10-17.json"}],"game_date":"2026-10-17","kind":"settlement","schema_version":1}
